@@ -1,10 +1,12 @@
+
 {
   "name": "101564963_comp3123_assignment1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "COMP3123 Assignment 1 - Secure Employee Management REST API",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
