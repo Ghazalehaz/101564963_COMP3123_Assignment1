@@ -81,4 +81,10 @@ const startServer = async () => {
     });
 };
 
-startServer();
+if (process.env.VERCEL === '1') {
+    connectDB();
+} else {
+    startServer();
+}
+
+module.exports = app;
