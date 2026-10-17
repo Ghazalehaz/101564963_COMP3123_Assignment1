@@ -289,6 +289,20 @@ I used Git to track changes to my project.
 
 I also used a `.gitignore` file to avoid uploading unnecessary or private files such as `node_modules` and `.env`.
 
+## Vercel Deployment
+
+I deployed my Employee Management API on Vercel.
+
+My API is available at:
+
+https://101564963-comp-3123-assignment1.vercel.app/
+
+I also added a health-check endpoint to check if the API is running.
+
+**Health Check URL:**
+
+https://101564963-comp-3123-assignment1.vercel.app/health
+
 ## Conclusion
 
 In this assignment, I learned more about creating REST APIs using Node.js, Express, and MongoDB.
